@@ -1,4 +1,4 @@
-package com.ven.constants;
+package constants;
 
 public class navigationConstants {
 	

@@ -1,4 +1,4 @@
-package com.ven.tester;
+package testRunner;
 
 import org.testng.annotations.Test;
 

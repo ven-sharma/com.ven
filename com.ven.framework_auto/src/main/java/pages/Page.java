@@ -1,4 +1,4 @@
-package com.ven.pages;
+package pages;
 
 public class Page {
 	
