@@ -1,0 +1,10 @@
+{
+	"About" : {
+		"Author" : "VenGSharma",
+		"CanonicalPath" : "/com.ven.framework_auto/src/test/java/com/ven/elements/pageElements.json"
+	},
+	"": {
+	"findBy" : "xpath",
+	"XPath" : ""
+	}
+}
