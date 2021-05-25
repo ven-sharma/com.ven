@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-25T17:33:25 GMT-04:00" name="Default suite" finished-at="2021-05-25T17:33:26 GMT-04:00" duration-ms="431">
+  <suite started-at="2021-05-25T18:13:53 GMT-04:00" name="Default suite" finished-at="2021-05-25T18:13:54 GMT-04:00" duration-ms="726">
     <groups>
       <group name="cucumber">
-        <method signature="tester.feature(io.cucumber.testng.PickleWrapper)[pri:0, instance:com.ven.tester.tester@f09733f]" name="feature" class="com.ven.tester.tester"/>
+        <method signature="tester.feature(io.cucumber.testng.PickleWrapper)[pri:0, instance:com.ven.tester.tester@4b45a2f5]" name="feature" class="com.ven.tester.tester"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-05-25T17:33:25 GMT-04:00" name="Default test" finished-at="2021-05-25T17:33:26 GMT-04:00" duration-ms="431">
+    <test started-at="2021-05-25T18:13:53 GMT-04:00" name="Default test" finished-at="2021-05-25T18:13:54 GMT-04:00" duration-ms="726">
       <class name="com.ven.tester.tester">
-        <test-method is-config="true" signature="setUpCucumber()[pri:0, instance:com.ven.tester.tester@f09733f]" started-at="2021-05-25T17:33:25 GMT-04:00" name="setUpCucumber" finished-at="2021-05-25T17:33:26 GMT-04:00" duration-ms="401" status="FAIL">
+        <test-method is-config="true" signature="setUpCucumber()[pri:0, instance:com.ven.tester.tester@4b45a2f5]" started-at="2021-05-25T18:13:53 GMT-04:00" name="setUpCucumber" finished-at="2021-05-25T18:13:54 GMT-04:00" duration-ms="698" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[path must exist: C:\Users\vengs.DESKTOP-CVQ06DJ\git\repository\com.ven.framework_auto\src\test\java\com.ven.tests]]>
+              <![CDATA[path must exist: C:\Users\vengs.DESKTOP-CVQ06DJ\git\com.ven\com.ven.framework_auto\src\test\java\com.ven.tests]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: path must exist: C:\Users\vengs.DESKTOP-CVQ06DJ\git\repository\com.ven.framework_auto\src\test\java\com.ven.tests
+              <![CDATA[java.lang.IllegalArgumentException: path must exist: C:\Users\vengs.DESKTOP-CVQ06DJ\git\com.ven\com.ven.framework_auto\src\test\java\com.ven.tests
 at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
 at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
 at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
@@ -57,7 +57,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpCucumber -->
-        <test-method signature="feature(io.cucumber.testng.PickleWrapper)[pri:0, instance:com.ven.tester.tester@f09733f]" started-at="2021-05-25T17:33:26 GMT-04:00" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-05-25T17:33:26 GMT-04:00" duration-ms="0" status="SKIP">
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper)[pri:0, instance:com.ven.tester.tester@4b45a2f5]" started-at="2021-05-25T18:13:54 GMT-04:00" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-05-25T18:13:54 GMT-04:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.provideScenarios()" because "this.testNGCucumberRunner" is null]]>
@@ -106,7 +106,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.ven.tester.tester@f09733f]" started-at="2021-05-25T17:33:26 GMT-04:00" name="tearDownClass" finished-at="2021-05-25T17:33:26 GMT-04:00" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.ven.tester.tester@4b45a2f5]" started-at="2021-05-25T18:13:54 GMT-04:00" name="tearDownClass" finished-at="2021-05-25T18:13:54 GMT-04:00" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.finish()" because "this.testNGCucumberRunner" is null]]>
